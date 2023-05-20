@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "2022ParcialFuncional:lib"
+
+    - path: "./test"
+      component: "2022ParcialFuncional:test:2022ParcialFuncional-test"
