@@ -3,10 +3,21 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    commit: 7c89e5d9171c6e9233c2b3592bc66696587b87e1
+    git: https://github.com/10Pines/pdepreludat.git
+    name: pdeprelude
+    pantry-tree:
+      sha256: 9208da3278cecee826122693b6c252984e87807c8b904eed750ca43d014d11ac
+      size: 2645
+    version: 0.2.0.0
+  original:
+    commit: 7c89e5d9171c6e9233c2b3592bc66696587b87e1
+    git: https://github.com/10Pines/pdepreludat.git
 snapshots:
 - completed:
+    sha256: 87842ecbaa8ca9cee59a7e6be52369dbed82ed075cb4e0d152614a627e8fd488
     size: 586069
     url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/14.yaml
-    sha256: 87842ecbaa8ca9cee59a7e6be52369dbed82ed075cb4e0d152614a627e8fd488
   original: lts-18.14
